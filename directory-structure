@@ -1,0 +1,24 @@
+kalk
+├── docs
+│   ├── index.md
+│   └── ...
+├── environment-dev.yml
+├── environment.yml
+├── LICENSE
+├── mkdocs.yml
+├── README.md
+├── setup.py
+├── src
+│   ├── kalk
+│   │   ├── cli.py
+│   │   ├── __init__.py
+│   │   └── version.py
+│   └── some_plugin
+│       ├── cli.py
+│       ├── __init__.py
+│       └── version.py
+└── tests
+    ├── kalk
+    │   └── test_operations.py
+    └── some_plugin
+        └── ...

@@ -1,0 +1,5 @@
+name: pydre
+channels:
+  - conda-forge
+dependencies:
+  - mkdocs-material
