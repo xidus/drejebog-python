@@ -1,48 +1,45 @@
-<!-- 
-<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script> <script>mermaid.initialize({startOnLoad:true});</script>
 
-<div style="text-align: center;">
-    <div class="mermaid" style="display:inline;">
- gantt
-    title Fremgangsmåde
-    dateFormat YYYY-MM-DD
-    #timeFormat HH:MM
-
-    section Specifikation
-    Brugeren :a1, 2022-02-04T10:00, 30m
-    README.md :after a1  , 20m
-
-    section Python-opsætning
-    Mamba :a2, 2022-02-04, 15m
-    Environment :after a2, 24m
-            
-    </div>
-</div>
- -->
-
-!!! note "Mappestruktur og filformål"
+!!! note "Skitse til overblik over de enkelte filers formål i eksemplet, vi bygger."
 
     === "Dokumentation"
 
-        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="2-4,"
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="6-8 11 13"
         --8<-- "directory-structure"
         ```
 
-    === "Kildemateriale"
+    === "Kildekode"
 
-        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="2 3"
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="15-23"
         --8<-- "directory-structure"
         ```
 
-    === "Udviklerens hjælpefiler"
+    === "Testkode"
 
-        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="2 3"
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="24-28"
         --8<-- "directory-structure"
         ```
 
-    === "Brugerens produkt"
+    === "Udviklerkonfiguration"
 
-        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="2 3"
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="2-5 9 12 14"
+        --8<-- "directory-structure"
+        ```
+
+    === "Brugerinstallation"
+
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="10 14"
+        --8<-- "directory-structure"
+        ```
+
+    === "Installeret pakke"
+
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="16-19"
+        --8<-- "directory-structure"
+        ```
+
+    === "Installeret pakke 2 (plugin?)"
+
+        ```title="Mappe- og fil-oversigt" linenums="1" hl_lines="20-23"
         --8<-- "directory-structure"
         ```
 

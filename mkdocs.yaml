@@ -56,4 +56,5 @@ markdown_extensions:
 
 # Navigation
 nav:
-- Indledning: index.md
+- Overblik: index.md
+- Python: python.md

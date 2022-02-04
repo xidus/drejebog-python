@@ -1,4 +1,8 @@
 kalk
+├── .git
+├── .github
+│   └── workflows
+│       └── main.yaml
 ├── docs
 │   ├── index.md
 │   └── ...
